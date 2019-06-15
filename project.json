@@ -1,0 +1,55 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Inspired by the famous DOOM fire on psx.\n\nVersion 3.\n- Added color customization.\n- Refactored code.\n\nVersion 2\n- Better canvas code.\n\nVersion 1\n- Initial release.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"basecolor" : 
+			{
+				"condition" : "custombool.value",
+				"order" : 103,
+				"text" : "Base Color",
+				"type" : "color",
+				"value" : "1.0 1.0 1.0"
+			},
+			"custombool" : 
+			{
+				"order" : 100,
+				"text" : "User bool",
+				"type" : "bool",
+				"value" : false
+			},
+			"midcolor" : 
+			{
+				"condition" : "custombool.value",
+				"order" : 102,
+				"text" : "Mid Color",
+				"type" : "color",
+				"value" : "1.0 0.57 0.0"
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"topcolor" : 
+			{
+				"condition" : "custombool.value",
+				"order" : 101,
+				"text" : "Top Color",
+				"type" : "color",
+				"value" : "0.75 0.0 0.0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "DOOM Fire",
+	"type" : "web",
+	"visibility" : "friends",
+	"workshopid" : "1683011288"
+}
